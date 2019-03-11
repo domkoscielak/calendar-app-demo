@@ -1,10 +1,11 @@
 {
   "name": "demo-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://domkoscielak.github.io/calendar-app-demo",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.5"

@@ -40,7 +40,7 @@ export default function CalendarApp() {
       // Show loading spinner mask
       setShowMask(true);
       // Get data
-      axios.get(window.location.origin+'/api/'+dataSet)
+      axios.get('https://storage.googleapis.com/demo-app-misc/calendar-data/'+dataSet)
       .then(({ data })=> {
 
         setDays(data.data.days); // Set days state with fetched days data
